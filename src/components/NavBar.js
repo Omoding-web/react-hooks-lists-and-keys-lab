@@ -5,7 +5,7 @@ function NavBar() {
   const links = ["home", "about", "projects"];
 
   return (
-    /*Component bar navigation */
+    /*Component navigation bar */
   <nav>
       <a href="#home">home</a>
       <a href="#about">about</a>
