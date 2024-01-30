@@ -5,7 +5,7 @@ function ProjectList({ projects }) {
 {/*Mapping over the projects array to create a ProjectItem component for each project*/}
   const ProjectItems = projects.map((project) => (
   <ProjectItem
-  /*Using the id of each project as the key prop*/
+  /*Us the id of each project as the key prop*/
   key={project.id}
   /*Passing the name, description, and technologies arrays of the project as a prop */
   name={project.name}
